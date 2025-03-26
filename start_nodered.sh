@@ -1,0 +1,1 @@
+podman run -it -p 1880:1880 -v node_red_data:/data --name mynodered --network bridge -d nodered/node-red
