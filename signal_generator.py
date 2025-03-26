@@ -14,5 +14,5 @@ while speed != 0:
         speed += speed_chanage
     print(f"Neue geschwindigkeit: {speed}")
     publish.single("auto1/geschwindigkeit", speed, hostname="127.0.0.1")
-    publish.single("auto1/entfernung_vorne", speed, hostname="127.0.0.1")
+    publish.single("auto1/entfernung_vorne", distance, hostname="127.0.0.1")
     time.sleep(0.5)

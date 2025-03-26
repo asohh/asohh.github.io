@@ -1,1 +1,1 @@
-podman run -it -p 1883:1883 -v .:/mosquitto/config:Z --network bridge -d eclipse-mosquitto
+podman run -it -p 1883:1883 -v ./mqtt:/mosquitto/config:Z --network bridge -d eclipse-mosquitto
