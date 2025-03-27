@@ -1,0 +1,13 @@
+var names = ["CHARLOTTE",
+"OLIVIA",
+"ISLA",
+"AMELIA",
+"MIA",
+"LILY",
+"HAZEL",
+"IVY",
+"GRACE",
+"MATILDA"]
+
+msg.name = names[msg.payload]
+return msg;
